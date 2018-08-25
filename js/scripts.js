@@ -31,4 +31,9 @@
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
 
+    // previous projects
+    $('#projModal1').on('show.bs.modal', function (e) {
+       $('#projImage').attr("src",$(e.relatedTarget).data("src"));
+    });
+
 })(jQuery);
