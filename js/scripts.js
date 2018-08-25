@@ -36,4 +36,12 @@
        $('#projImage').attr("src",$(e.relatedTarget).data("src"));
     });
 
+    $('#projModal2').on('show.bs.modal', function (e) {
+       $('#projImage2').attr("src",$(e.relatedTarget).data("src"));
+    });
+
+    $('#projModal3').on('show.bs.modal', function (e) {
+       $('#projImage3').attr("src",$(e.relatedTarget).data("src"));
+    });
+
 })(jQuery);
