@@ -11,7 +11,7 @@
 /* Documentation Styles
 ================================================== */
   body {
-    background-color: #000;
+    background-color: #C0C0C0;
   }
 
   h3, h4 {
@@ -19,26 +19,70 @@
   }
 
   strong {
-    color: #C0C0C0;
+    color: #FFF;
   }
 
   p, ul, ol {
-    color: #999;
+    color: #FFF;
   }
 
   nav {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    padding-left: 30px;
+    /*
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    background-color: #000;*/
+  }
+
+  div.proj {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
 
-    border-style: solid;
-    border-width: 2px 20px 2px 20px;
-    border-radius: 5px;
+    height: 100%;
+
+    /*border-style: solid;
+    border-width: 2px 2px 2px 2px;*/
+    background-color: #FFF;
+  }
+
+  p.proj {
+    color: #000;
+  }
+
+  img.proj {
+    /*border-radius: 35%;*/
+  }
+
+  img.avatar {
+
+    margin-top: -18px;
+    /*border-radius: 35%;*/
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  }
+
+  strong.proj {
+    color: #000;
   }
 
   div.container {
-    padding-top: 20px; }
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    background-color: #000;
+  }
+
+  div.container {
+    padding-top: 20px; 
+  }
 
   /* Doc nav */
   nav {
@@ -137,7 +181,6 @@
 
   img {
     max-width: 100%;
-    border-radius: 35%;
     height: auto; }
 
   .gist-meta { display: none !important;}
